@@ -1,0 +1,14 @@
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/bin/Debug/net10.0/Task1
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/bin/Debug/net10.0/Task1.deps.json
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/bin/Debug/net10.0/Task1.runtimeconfig.json
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/bin/Debug/net10.0/Task1.dll
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/bin/Debug/net10.0/Task1.pdb
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.AssemblyInfoInputs.cache
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.AssemblyInfo.cs
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.csproj.CoreCompileInputs.cache
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.dll
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/refint/Task1.dll
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.pdb
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/Task1.genruntimeconfig.cache
+/Users/ismailrizayev/Desktop/Tasks /Task1/Task1/obj/Debug/net10.0/ref/Task1.dll

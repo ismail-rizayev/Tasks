@@ -1,0 +1,14 @@
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/bin/Debug/net10.0/LibraryManagment
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/bin/Debug/net10.0/LibraryManagment.deps.json
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/bin/Debug/net10.0/LibraryManagment.runtimeconfig.json
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/bin/Debug/net10.0/LibraryManagment.dll
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/bin/Debug/net10.0/LibraryManagment.pdb
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.AssemblyInfoInputs.cache
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.AssemblyInfo.cs
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.csproj.CoreCompileInputs.cache
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.dll
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/refint/LibraryManagment.dll
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.pdb
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/LibraryManagment.genruntimeconfig.cache
+/Users/ismailrizayev/Desktop/Tasks /LibraryManagment/LibraryManagment/obj/Debug/net10.0/ref/LibraryManagment.dll
