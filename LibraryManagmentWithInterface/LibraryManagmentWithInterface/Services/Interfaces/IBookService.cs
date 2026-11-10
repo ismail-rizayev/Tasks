@@ -14,5 +14,8 @@ public interface IBookService
   Book[] GetSortedBooksByAuthor(string searchedAuthor);
   double GetPageSumMultipliedByAverage();
   Book[] GetTop3();
+  Book[] GetBookById(int searchedid);
+  void AddBook(Book book);
+  int getCount();
 
 }

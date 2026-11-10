@@ -7,7 +7,7 @@ namespace LibraryManagmentWithInterface.Services;
 public class BookService : IBookService
 {
   private readonly AppDbContext _context;
-  private readonly Book[] books;
+  private  Book[] books;
 
   public BookService()
   {
@@ -76,6 +76,25 @@ public class BookService : IBookService
   {
     return books.OrderByDescending(book => book.Rating).Take(3).ToArray();
 
+  }
+
+  public Book[] GetBookById(int searchedid)
+  {
+    return books.Where(book => book.Id == searchedid).ToArray();
+  }
+
+  // Если ваша коллекция — это массив Book[]:
+  public void AddBook(Book book)
+  {
+    Array.Resize(ref books, books.Length + 1);
+    books[books.Length - 1] = book;
+
+    System.Console.WriteLine($"\nBook '{book.Title}' has been successfully added!");
+  }
+
+  public int getCount()
+  {
+    return books.Length;
   }
 
 

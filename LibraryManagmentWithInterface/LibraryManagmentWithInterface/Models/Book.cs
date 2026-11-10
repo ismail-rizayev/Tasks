@@ -25,5 +25,6 @@ public class Book
     this.Rating = Rating;
     
   }
+  public Book() { }
 
 }

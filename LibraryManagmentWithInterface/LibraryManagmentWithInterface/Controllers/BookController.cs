@@ -16,7 +16,7 @@ public class BookController
   
   public void showMenu()
   {
-    string answer;
+    string answer = "";
     int input;
     do
     {
@@ -32,6 +32,8 @@ public class BookController
       Get sorted books by Author: 8
       Get multiply of books pageCount and avarage of books pageCount: 9
       Get the top 3 books: 10
+      Get Book By Id: 11
+      Add Book: 12
       ");
 
       System.Console.Write("Choose the option -->");
@@ -76,20 +78,73 @@ public class BookController
           case 10:
             _bookservice.GetInfo(_bookservice.GetTop3());
             break;
+          case 11:
+            System.Console.Write("Enter the id -->");
+            if (int.TryParse(Console.ReadLine(), out int searchedId))
+            {
+              Book[] book = _bookservice.GetBookById(searchedId);
+              if (book != null)
+              {
+                System.Console.WriteLine(_bookservice.GetInfo(book));
+              }
+              else
+              {
+                System.Console.WriteLine("Didn't find a book with this id");
+              }
+            }
+            else
+            {
+              System.Console.WriteLine("Invalid input! ID must be a number.");
+            }
+            break;
+          case 12:
+            System.Console.Write("Enter Title of book --> ");
+            string Title = Console.ReadLine();
+
+            System.Console.Write("Enter Author --> ");
+            string Author = Console.ReadLine();
+
+            System.Console.Write("Enter Genre --> ");
+            string Genre = Console.ReadLine();
+
+            System.Console.Write("Enter price --> ");
+            if (double.TryParse(Console.ReadLine(), out double price))
+            {
+                System.Console.Write("Enter Page Count --> ");
+                int.TryParse(Console.ReadLine(), out int pageCount);
+
+                System.Console.Write("Enter Publish Year --> ");
+                int.TryParse(Console.ReadLine(), out int publishYear);
+
+                System.Console.Write("Enter Rating --> ");
+                double.TryParse(Console.ReadLine(), out double rating);
+
+                int id = _bookservice.getCount()+ 1;
+                Book newBook = new Book(id, Title, Author, Genre, price, pageCount, publishYear, rating);
+                _bookservice.AddBook(newBook);
+            }
+            else
+            {
+              System.Console.WriteLine("Your input is invalid, please try again");
+            }
+            _bookservice.GetInfo();
+            break;
         }
-      }
+      } 
       else
       {
-        System.Console.WriteLine("Your input is invalid, please try again");
+        System.Console.WriteLine("Invalid input! Option must be a number.");
       }
 
       do
       {
-        System.Console.Write("Do you want to continue (y/n) -->");
-        answer = Console.ReadLine();
-      }while(answer != "y" || answer != "n");
+        System.Console.Write("Do you want to continue (y/n) --> ");
+        answer = Console.ReadLine()?.Trim().ToLower();
+      } 
+      while (answer != "y" && answer != "n");
 
-    }while(answer == "y");
-    
-  }
+    } 
+    while (answer == "y");
+
+  } 
 }
